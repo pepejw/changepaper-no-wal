@@ -4,7 +4,6 @@ from glob import glob as ls
 from os.path import expanduser as xpuser
 from os import system as sh
 from random import randint as rng
-from rofi import Rofi
 #cmdline args
 parser = argparse.ArgumentParser(
         prog='changepaper',
