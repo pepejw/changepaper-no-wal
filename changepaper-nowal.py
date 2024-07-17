@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument('-L', action='store_true') #list
 parser.add_argument('-d', default=xpuser('~/wallpapers')) #different directory
 parser.add_argument('-f') #what file
+parser.add_argument('-r', action='store_true') # random file
 args = parser.parse_args()
 
 
