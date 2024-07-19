@@ -38,7 +38,7 @@ def main():
 
   elif args.r:
     files = ls(args.d+'/*.png')
-    file_path = f"{args.d}/{rng(0,len(files))}.png"
+    file_path = f"{args.d}/{rng(0,len(files)-1)}.png"
     valid = True
 
   if valid == True:
